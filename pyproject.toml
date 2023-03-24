@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "biomedical-resource-ontology"
+version = "4.0.0"
+description = "A meta-ontology describing biomedical resources for computational biomedicine"
+authors = ["Sebastian Lobentanzer <sebastian.lobentanzer@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "biomedical_resource_ontology"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
