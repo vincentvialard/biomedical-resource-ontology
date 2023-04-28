@@ -15,7 +15,7 @@
 
 <http://bioontology.org/ontologies/BiomedicalResources.owl> rdf:type owl:Ontology ;
                                                              owl:imports <http://www.w3.org/2004/02/skos/core> ;
-                                                             owl:versionInfo "3.2.1" .
+                                                             owl:versionInfo "4.1.0" .
 
 #################################################################
 #    Annotation properties
